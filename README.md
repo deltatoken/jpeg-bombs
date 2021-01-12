@@ -32,11 +32,14 @@ size = str(options['size'])
 color = options['color']
 with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'jpeg_bombs', color, size + 'K.jpeg'), 'rb') as f:
 output.output([f.read()])
-
+[
 i cannot add the additional files needed to reproduce but i believe any security newbie will hae no trouble to guess... (i just dont wnat to be sued..) 
+]
 3. upload the produced image in any fb post/page/group/instegram and youll be ably to see the server side effct on the server!
+
 4.this is an AC time attack as well as an ac disk/space atack and a CPU (AC time) vulnerability against the jpeg parser without going over any given memory ceiling
-ill atch the entire source code which i havent yet shared on guithub - so you can fix it.
+ill atch the entire source code which i havent yet shared on guithub in the future -but want to give fb a chance to fix it.
+the source in the folders include the actual binaries so dowload with care as they can crash low memomry laptops / cpus and most smartphones!!
 the fix ---
 -----------
 1.limit the max memory per image uplaod.
