@@ -47,3 +47,5 @@ the fix ---
 3. Don’t allow repeated filters
 4 Limit the number of DCTDecode object per page
 5.limit the number of any other jpeg deflate parser so it limits repeated objects in binary code or sanitize better repteaded field or empty files large in size
+
+![Alt text](/fb-response.png?raw=true "The fb response i got")
